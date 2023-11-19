@@ -56,6 +56,49 @@ width: 50%;
   height: 50%;
   margin-left: 20%;
 }
+.imgs-descriptions{
+  display:flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  justify-content: space-around;
+  
+
+}
+.img-des p {
+  text-align: center;
+  max-width: 250px;
+  
+}
+.images-header{
+  text-align: center;
+}
+.nature-img{
+  width: 250px;
+  height: 250px;
+  border-radius: 5%;
+  border: 5px solid #3498db;
+}
+.img-des{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quote-container{
+  background-color: #E5E7EB;
+  padding: 10% 25% 10% 25%;
+  display: flex;
+  flex-direction: column;
+}
+.quote{
+  opacity: 0.7;
+  font-weight: 500;
+  
+}
+.author{
+  text-align: right;
+}
+
 .footer {
     position: fixed;
     left: 0;
